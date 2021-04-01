@@ -1,0 +1,38 @@
+/*
+Theme Name : Programmez !
+Text Domain: programmez
+Version 1.0
+Description : Fancy left sidebar Theme
+Tags: programmez bootstrap
+Author: Benoit SAKOTE
+Author URI: github.com/BenoitAdam94
+
+*/
+
+
+.programmez-titre{
+	font-size: 2em;
+}
+
+.programmez-background {
+	background-color:#9cadbf;
+}
+
+
+.programmez-menu-class{
+	font-size: 1.25rem; /* Taille x1.25 */
+	text-transform: uppercase; /* Tout passer en majuscule */
+	text-align :center; /* Alignement au centre */
+}
+
+.programmez-menu-class ul{
+	list-style: none;
+}
+
+.programmez-menu-class a:hover{ /* Hover behavior */
+	background-color:lightgreen;
+	padding-left:10px;
+	padding-right:10px;
+	text-decoration: none; /* remove underline */
+	transition-duration:1s;
+}
