@@ -9,19 +9,21 @@ if (!isset($content_width)) $content_width = 538;
 
 function programmez_theme_support(){
 	add_theme_support('custom-logo'); // Logo Custom
-	add_theme_support('custom-background');
-	add_theme_support('editor-color-palette');
-	add_theme_support('custom-header');
-	add_theme_support('post-thumbnails');
-	
-	/*
+	add_theme_support('custom-background'); // Fond d'écran
+	add_theme_support('editor-color-palette'); // Palette Header + background
+	add_theme_support('post-thumbnails'); // Miniatures
+	add_theme_support('title-tag'); // Titre du site
+	add_theme_support('automatic-feed-links'); // RSS
 
+	/* Liste entière des fonctions existantes */
+	/*
 	add_theme_support('admin-bar');
 	add_theme_support('align-wide');
-	add_theme_support('automatic-feed-links');
+	
 	add_theme_support('core-block-patterns');
 	add_theme_support('custom-line-height');
 	add_theme_support('customize-selective-refresh-widgets');
+	add_theme_support('custom-header');
 	add_theme_support('custom-spacing');
 	add_theme_support('custom-units');
 	add_theme_support('dark-editor-style');
@@ -34,10 +36,8 @@ function programmez_theme_support(){
 	add_theme_support('html5');
 	add_theme_support('menus');
 	add_theme_support('post-formats');
-	
 	add_theme_support('responsive-embeds');
 	add_theme_support('starter-content');
-	add_theme_support('title-tag');
 	add_theme_support('wp-block-styles');
 	add_theme_support('widgets');*/
 }
