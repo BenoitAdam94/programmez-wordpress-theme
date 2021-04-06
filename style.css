@@ -26,7 +26,7 @@ Author URI: github.com/BenoitAdam94
 }
 
 .programmez-menu-class ul{
-	list-style: none;
+	list-style: none; /* Enlever les points de liste */
 }
 
 .programmez-menu-class a:hover{ /* Hover behavior */
