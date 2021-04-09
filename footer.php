@@ -20,7 +20,10 @@
 			wp_nav_menu(
 				array(
 					'menu' => 'footer',
+					'menu_class'      => 'social-icons',
 					'theme_location' => 'footer',
+					'link_before'     => '<span>',
+					'link_after'      => '</span>',
 				)
 			);
 			?>

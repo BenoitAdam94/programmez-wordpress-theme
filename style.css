@@ -36,3 +36,73 @@ Author URI: github.com/BenoitAdam94
 	text-decoration: none; /* remove underline */
 	transition-duration:1s;
 }
+
+
+
+
+/************************************************
+Social Media
+************************************************/
+
+.social-icons {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.social-icons li {
+	float: left;
+	display: block;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+.social-icons li a {
+	display: block;
+	color: #666666;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	text-decoration: none;
+	line-height: 45px;
+	min-width: 45px;
+	margin: 0px;
+	padding: 0px;
+}
+.social-icons li a:hover {
+	color: #000000;
+	background: #444444;
+	background: rgba(255, 255, 255, 0.24);
+}
+.social-icons li a::before {
+	font-family: 'FontAwesome';
+	font-size: 25px;
+	font-weight: normal;
+	content: '\f0c1';
+}
+.social-icons li a span {
+	display: none;
+}
+.social-icons li a[href*="facebook.com"]::before		{ content: '\f09a'; }
+.social-icons li a[href*="twitter.com"]::before 		{ content: '\f099'; }
+.social-icons li a[href*="plus.google.com"]::before 	{ content: '\f0d5'; }
+.social-icons li a[href*="linkedin.com"]::before	 	{ content: '\f0e1'; }
+.social-icons li a[href*="github.com"]::before		 	{ content: '\f113'; }
+.social-icons li a[href*="dribbble.com"]::before		{ content: '\f17d'; }
+.social-icons li a[href*="foursquare.com"]::before		{ content: '\f180'; }
+.social-icons li a[href*="pinterest.com"]::before		{ content: '\f0d2'; }
+.social-icons li a[href*="wordpress.com"]::before		{ content: '\f19a'; }
+.social-icons li a[href*="youtube.com"]::before			{ content: '\f16a'; }
+.social-icons li a[href*="vine.co"]::before				{ content: '\f1ca'; }
+.social-icons li a[href*="instagram.com"]::before		{ content: '\f16d'; }
+.social-icons li a[href*="stackexchange.com"]::before	{ content: '\f18d'; }
+.social-icons li a[href*="spotify.com"]::before			{ content: '\f1bc'; }
+.social-icons li a[href*="soundcloud.com"]::before			{ content: '\f1be'; }
+.social-icons li a[href*="last.fm"]::before			{ content: '\f202'; }
+.social-icons li a[href*="amazon.com"]::before			{ content: '\f270'; }
+.social-icons li a[href*="flickr.com"]::before			{ content: '\f16e'; }
+.social-icons li a[href*="vimeo.com"]::before			{ content: '\f27d'; }
+.social-icons li a[href*="yelp.com"]::before			{ content: '\f1e9'; }
+.social-icons li a[href*="mailto:"]::before				{ content: '\f0e0'; }
+.social-icons li a[href$="/feed/"]::before				{ content: '\f09e'; }}
+
+
