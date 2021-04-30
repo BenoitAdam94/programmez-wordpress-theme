@@ -1,4 +1,4 @@
-<div class="col-3 border">
+<div class="col-xl-3 border">
 	<?php
 	dynamic_sidebar('sidebar-1')
 	?>

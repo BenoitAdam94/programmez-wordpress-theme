@@ -5,7 +5,7 @@
 
 	<div>
 		<span class="date"><?php the_date(); ?></span> <!-- La Date -->
-		
+
 		<?php
 		the_tags(
 			'<span class="tag"><i class="fa fa-tag"></i> ', // Début
@@ -18,6 +18,10 @@
 	<?php
 	the_post_thumbnail('medium'); // La miniature du post	
 	the_content(); // Le contenu 
+	?>
+
+	<?php
+	the_post_navigation();
 	?>
 
 	<a href="#comments"><i class='fa fa-comment'></i><?php comments_number(); ?></a>

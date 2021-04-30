@@ -32,7 +32,8 @@
 	<main>
 		<div class="container">
 			<div class="row">
-				<nav class="col-3 border programmez-menu-class">
+			<!-- NAV -->
+				<nav class="col-xl-3 border programmez-menu-class">
 					<?php
 					wp_nav_menu(
 						array(
